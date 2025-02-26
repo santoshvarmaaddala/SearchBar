@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
-import { Input } from "./ui/input";
-import { ScrollArea } from "./ui/scroll-area";
+import { Input } from "@/components/ui/input";
+import { ScrollArea } from "@/components/ui/scroll-area";
 import {ArrowUpAZ, ArrowDownAZ, Search} from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "./ui/dropdown-menu";
-import { Button } from "./ui/button";
+} from "@/components/ui/dropdown-menu";
+import { Button } from "@/components/ui/button";
 
 const SearchComponent = () => {
   const data = [
@@ -97,11 +97,11 @@ const SearchComponent = () => {
             <DropdownMenuContent align="end" className="w-40 bg-white text-black">
             <DropdownMenuItem onClick={() => setSortOrder("asc")}>
                 Title Ascending
-                <ArrowUpAZ />
+                <ArrowDownAZ/>
             </DropdownMenuItem>
             <DropdownMenuItem onClick={() => setSortOrder("desc")}>
                 Title Descending
-                <ArrowDownAZ/>
+                <ArrowUpAZ />
             </DropdownMenuItem>
             </DropdownMenuContent>
         </DropdownMenu>
