@@ -1,8 +1,8 @@
-import Search from "./components/Search"
+import SearchComponent from "./components/SearchComponent"
 
 function App() {
     return (
-        <Search />
+        <SearchComponent />
     )
 
 }
