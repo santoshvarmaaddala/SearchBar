@@ -5,6 +5,12 @@
 
 ## How to use?
   In your React app you can install it by using following command
+  ### prerequisites:
+  - Node
+  - NPM
+  - React/Next
+  - Shadcn Cli
+      
   ``` js
     npx shadcn@latest add "https://21st.dev/r/santoshvarmaaddala/search-bar"
   ```
